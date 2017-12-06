@@ -232,14 +232,31 @@ form {
 
 @media only screen 
 	and (max-width: 768px) {
+		header {
+			background-color: black;
+		}
 		.title_container {
 			width: 600px;
+		}
+		.titlebox {
+			background-color: black;
+			padding: 12px;
+			color: #4aaaa5;
+		}
+		.link {
+			color: black;
 		}
 		.combined_container {
 			width: 600px;
 		}
 		.link_container {
 			float: left;
+		}
+		.container {
+			background-color: black;
+		}
+		.connect {
+			background-color: black;
 		}
 	}
 
@@ -250,7 +267,6 @@ form {
 		}
 		.titlebox {
 			width: 234px;
-			padding: 13px;
 		}
 		.combined_container {
 			width: 290px;
