@@ -249,15 +249,18 @@ form {
 			width: 480px;
 		}
 		.titlebox {
-			width: 220px;
+			width: 234px;
 		}
 		.combined_container {
-			width: 220px;
+			width: 290px;
+			margin: 0;
 		}
 		.container {
-			width: 220px;
+			width: 262px;
+			padding: 14px;
 		}
 		.connect {
-			width: 220px;
+			width: 234px;
+			margin: 0;
 		}
 	}
