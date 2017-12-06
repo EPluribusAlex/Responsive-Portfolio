@@ -75,10 +75,10 @@ header {
 }
 
 #me {
-	width: 250px;
+	width: 260px;
 	height: auto;
 	float: left;
-	margin: 6px 28px 8px 0px;
+	margin: 6px 18px 8px 0px;
 }
 
 .connect {
@@ -215,7 +215,7 @@ form {
 }
 
 .textbox3 {
-	width: 592px;
+	width: 586px;
 	height: 250px;
 	border: 1px solid #dddddd;
 	margin: 8px 0px 20px 0px;
@@ -250,10 +250,11 @@ form {
 		}
 		.titlebox {
 			width: 234px;
+			padding: 13px;
 		}
 		.combined_container {
 			width: 290px;
-			margin: 0;
+			margin: 0 15px 0 15px;
 		}
 		.container {
 			width: 262px;
@@ -262,5 +263,17 @@ form {
 		.connect {
 			width: 234px;
 			margin: 0;
+		}
+		.gal {
+			width: 260px;
+		}
+		.gal_selection {
+			width: 212px;
+		}
+		.textbox1, .textbox2, .textbox3 {
+			width: 262px;
+		}
+		.textbox3 {
+			width: 256px;
 		}
 	}
