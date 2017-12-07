@@ -230,66 +230,123 @@ form {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-@media only screen 
-	and (max-width: 768px) {
-		header {
-			background-color: black;
-		}
-		.title_container {
-			width: 600px;
-		}
-		.titlebox {
-			background-color: black;
-			padding: 12px;
-			color: #4aaaa5;
-		}
-		.link {
-			color: black;
-		}
-		.combined_container {
-			width: 600px;
-		}
-		.link_container {
-			float: left;
-		}
-		.container {
-			background-color: black;
-		}
-		.connect {
-			background-color: black;
-		}
+@media only screen and (max-width: 980px) {
+	.title_container {
+		width: 800px;
+	}
+	.combined_container {
+		width: 800px;
+	}
+	.container {
+		width: 430px;
+	}
+	#me {
+		width: 430px;
+	}
+	.gal {
+		width: 430px;
+	}
+	.gal_selection {
+		width: 382px;
+	}
+	.textbox1 {
+		width: 430px;
+	}
+	.textbox2 {
+		width: 430px;
+	}
+	.textbox3 {
+		width: 425px;
 	}
 
-@media only screen
-	and (max-width: 480px) {
-		.title_container {
-			width: 480px;
-		}
-		.titlebox {
-			width: 234px;
-		}
-		.combined_container {
-			width: 290px;
-			margin: 0 15px 0 15px;
-		}
-		.container {
-			width: 262px;
-			padding: 14px;
-		}
-		.connect {
-			width: 234px;
-			margin: 0;
-		}
-		.gal {
-			width: 260px;
-		}
-		.gal_selection {
-			width: 212px;
-		}
-		.textbox1, .textbox2, .textbox3 {
-			width: 262px;
-		}
-		.textbox3 {
-			width: 256px;
-		}
+@media only screen and (max-width: 768px) {
+	.title_container {
+		width: 620px;
+		margin-left: 30px;
 	}
+	.titlebox {
+		padding: 28px 6px 28px 6px;
+	}
+	.link_container {
+		margin-left: 0;
+	}
+	.combined_container {
+		width: 620px;
+		margin: 60px 30px;
+	}
+	.container {
+		width: 600px;
+	}
+	.connect {
+		width: 600px;
+		margin-left: 0;
+	}
+	.link {
+		margin-left: 10px;
+	}
+	.gal {
+		width: 280px;
+	}
+	.gal_selection {
+		width: 232px;
+	}
+	.textbox1 {
+		width: 600px;
+	}
+	.textbox2 {
+		width: 600px;
+	}
+	.textbox3 {
+		width: 595px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.title_container {
+		width: 640px;
+		margin: 0;
+	}
+	.titlebox {
+		width: 640px;
+		text-align: center;
+		margin: 0;
+	}
+	.link_container {
+		text-align: center;
+		float: none;
+		margin: 0;
+	}
+	.link {
+		margin: 40px;
+	}
+	.combined_container {
+		width: 580px;
+		margin: 0 15px 0 15px;
+	}
+	.container {
+		width: 580px;
+		padding: 14px;
+	}
+	#me {
+		width: 580px;
+	}
+	.connect {
+		width: 580px;
+		margin: 0;
+	}
+	.gal {
+		width: 580px;
+	}
+	.gal_selection {
+		width: 532px;
+	}
+	.textbox1 {
+		width: 580px;
+	}
+	.textbox2 {
+		width: 580px;
+	}
+	.textbox3 {
+		width: 575px;
+	}
+}
